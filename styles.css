@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(239, 239, 239, 0.977);
+}
+
+/* Contêiner centralizado */
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+/* Logo */
+.logo {
+    width: 200px; /* Ajuste conforme necessário */
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+/* Botão */
+.start-btn {
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.start-btn:hover {
+    background: #f1f1f1;
+}
